@@ -1,0 +1,38 @@
+main{
+	background-color: hsl(226, 43%, 10%);
+	padding: 5rem 0;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.app {
+	color: #fff;
+	padding: 1.5rem;
+
+	display: grid;
+	grid-template-columns: minmax(300px, 400px);
+	grid-gap: 2rem;
+	grid-auto-rows: min-content;
+	justify-content: center;
+}
+
+@media (min-width: 768px) {
+	.app {
+		grid-template-columns: repeat(2, minmax(300px, 400px));
+	}
+	.profile{
+		grid-column: 1 / span 2;
+	}
+}
+@media (min-width: 1440px) {
+	.app {
+		grid-template-columns: repeat(4, 300px);
+		grid-template-rows: repeat(2, 250px);
+	}
+	.profile{
+		grid-column: 1 / 1;
+		grid-row: 1 / span 2;
+	}
+}
