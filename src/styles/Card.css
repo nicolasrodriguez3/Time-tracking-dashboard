@@ -57,7 +57,7 @@
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	height: min-content;
+	min-height: 75%;
 	background-color: hsl(235, 46%, 20%);
 	border-radius: 1rem;
 	padding: 2rem 1.5rem;

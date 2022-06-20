@@ -1,7 +1,7 @@
 import React from "react"
 import "../styles/Card.css"
 
-function Card({data, active}) {
+function Card({data, active, img}) {
 	const { title, timeframes } = data
 	const name = title.replace(" ", "-").toLowerCase()
 
@@ -20,7 +20,7 @@ function Card({data, active}) {
 	return (
 		<section className={"card "+ name}>
 			<div className="img-background">
-				<img src={`images/icon-${name}.svg`} alt="" />
+				<img src={img} alt="" />
 			</div>
 			<section className="timer">
 				<div className="row">
