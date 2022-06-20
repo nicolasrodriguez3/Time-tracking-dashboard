@@ -17,6 +17,10 @@ El objetivo del desafío es:
 - Implementar efectos visuales al pasar el mouse sobre elementos interactivos
 - Intercambiar la información entre Daily, Weekly, and Monthly
 
+## Deploy del proyecto
+
+El proyecto se puede ver en [Vercel](https://time-tracking-dashboard1.vercel.app/)
+
 ## Sobre mí
 Si te gustó este proyecto, te invito a conocerme más en: 
 
